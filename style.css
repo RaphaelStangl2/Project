@@ -2,7 +2,11 @@ body,html
 {
     margin: 0;
     padding: : 0;
-	   background-color: #292D33;
+    background-image: url("main_backround.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 *
