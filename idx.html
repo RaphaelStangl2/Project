@@ -10,7 +10,13 @@
 	</head>
 
 	<header>
-				
+
+		<nav>
+			<ul class="navBar">
+				<li><a class="navItem" class="link" href="main_page.html">Home</a></li>
+			</ul>
+		</nav>
+
 		<div class="container h-100">
 			<div class="d-flex justify-content-center h-100">
 				<div class="searchbar">
@@ -19,6 +25,8 @@
 				</div>
 			</div>
 		</div>
+
+
 
 	</header>
 
@@ -31,22 +39,19 @@
 			<li><a href ="#">British</a></li>
 			<li><a href ="#">Indian</a></li>
 			<li><a href ="#">Chinese</a></li>
-			<li><a href ="#">France</a></li>
+			<li><a href ="#">French</a></li>
 			<li><a href ="#">America</a></li>
 			<li><a href ="#">Greek</a></li>
 			<li><a href ="#">Japanese</a></li>
 			<li><a href ="#">Portuguese</a></li>
 			<li><a href ="#">Spanish</a></li>
 			<li><a href ="#">Italian</a></li>
-			<li><a href ="#">Austira</a></li>
+			<li><a href ="#">Austria</a></li>
 			<li><a href ="#">Vietnamese</a></li>
 			<li><a href ="#">Korean</a></li>
 			<li><a href ="#">Mexican</a></li>
-
-
-
 		</ul>
-	</ol>
+
 	<br>
 	<br>
 	<br>
@@ -251,6 +256,8 @@
 	<style>
 
 
+
+
 	header{
    	width: 100%;
    	height: 120px;
@@ -259,8 +266,9 @@
 
 h2
 {
+	padding-top: 60px;
 	text-align: center;
-	color: orange;
+	color: white;
 }
 
 span
@@ -270,7 +278,6 @@ span
   font-size:  40px;
 }
 
-		
 .link
 {
 	color:  #ffffff;
@@ -284,7 +291,7 @@ span
    color: #F0c330;
    transition: 0.5s
 }
-	li 
+	li
 	{
   		float: left;
   		margin: 0 20px;
@@ -293,22 +300,43 @@ span
 	}
 	a
 	{
-		color: #000;
+		color: #FFFFFF;
+	}
+
+	.sizeNav
+	{
+		font-size: 20px;
+	}
+
+	.navBar
+	{
+	  width: auto;
+	  float: right;
+
+	  margin-top: 15px;
+		position:relative;
+
+	}
+	.navItem
+	{
+	  display: inline-block;
+	  padding: 15px 30px;
+	  font-size: 17px;
 	}
 
 
 	ul {
-	  list-style: none; /* Remove list bullets */
 	  padding: 0;
 	  margin: 0;
+	  list-style-type: none;
 	}
 	li
 	{
 		padding-left: 50px;
 	}
 
-	li::before {
-	  content: "•"; /* Insert content that looks like bullets */
+	li:before {
+	  content: ""; /* Insert content that looks like bullets */
 	  padding-right: 8px;
 	}
 
@@ -354,13 +382,13 @@ span
 	    text-decoration:none;
 	    }
 
-	.box-container    
+	.box-container
     	{
         	display: flex;
         	align-items: center;
         	justify-content: center;
         	flex-wrap: wrap;
-        	background: #ccc;
+        	background: #292D33;
     }
     .box
     {
